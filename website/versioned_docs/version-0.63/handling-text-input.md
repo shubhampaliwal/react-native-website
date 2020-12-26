@@ -31,7 +31,7 @@ const PizzaTranslator = () => {
 export default PizzaTranslator;
 ```
 
-In this example, we store `text` in the state, because it changes over time.
+In this example, we store `text` in the state using [react hooks](https://reactjs.org/docs/hooks-intro.html), because it changes over time.
 
 There are a lot more things you might want to do with a text input. For example, you could validate the text inside while the user types. For more detailed examples, see the [React docs on controlled components](https://reactjs.org/docs/forms.html#controlled-components), or the [reference docs for TextInput](textinput.md).
 
